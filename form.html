@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <html>
+        <head>
+        <title>Form in Table</title>
+        </head>
+        <body >
+        <form>
+         
+        
+            <table border="3" width="30%" cellpadding="5px" cellspacing="3px" height="500px" align="center">
+               <tbody>
+               <!---row1--->
+                <tr align="center" >
+                <th colspan="2"><font size="5">Registration Form </font></th>
+                </tr>
+                <tr>
+                    <td><label for="studentName">Student Name</label></td>
+                    <td>
+                      <input type="text" name="studentName" size="30" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="fatherName">Father Name</label></td>
+                    <td>
+                      <input type="text" name="fatherName" size="30" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="motherName">Mother Name</label></td>
+                    <td>
+                      <input type="text" name="motherName" size="30" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="dob">Date of Birth</label></td>
+                    <td width="80"><input type="date" name="dob" size="50"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                      <label for="male">Male</label>
+                      <input
+                        type="radio"
+                        name="gender"
+                        id="male"
+                        value="male"
+                        
+                      size="30">
+                      <label for="Female">Female</label>
+                      <input type="radio" name="gender" size="30">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="email">Email ID</label></td>
+                    <td><input type="email" name="email" id="email" size="30"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="number">Mobile No.</label></td>
+                    <td>
+                      <input
+                        type="tel"
+                        name="number"
+                        id="number"
+                        pattern="[0-9]{10}"
+                        
+                      size="30">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="Address">Address</label></td>
+                    <td>
+                      <textarea
+                        name="Address"
+                        id="Address"
+                     
+                       rows="5" 
+                       cols="30"
+                      ></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="state">State</label></td>
+                    <td><input type="text" name="state" size="30"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" name="city" size="30"></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" ></td>
+                  </tr>
+                </form>
+              </tbody>
+            </table>
+          </body>
+        </html>
