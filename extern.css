@@ -88,7 +88,7 @@
 			display:block;
 			
 			}
-			body{
+			.slider{
 				background-image:url("slider1.jpg");
 				background-color:#2f388478;
 				height:800px;
