@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800&display=swap');
+*{
+		   margin:0;
+		   padding:0;
+		   scroll-behavior:smooth;
+	       scroll-padding-top:50px;
+		   
+		}
+		
+		.box{
+			width: 97%;
+            margin: 0 auto;
+			
+		}
+		.container{
+			background-color:#546E7A;
+			padding:10px 0px;
+			position:sticky;
+	        top:0;
+		
+		}
+		.row{
+			display:flex;
+			
+		}
+		.column{
+		display:flex;
+		column-gap:10px;
+		}
+		.column{
+			flex:50%;
+		}
+		.column1{
+			flex:50%;
+			margin-left:40px;
+		}
+		.item3>ul{
+		   list-style-type:none;
+		   
+		}
+		.item3>ul>li{
+			  display:inline-block;
+			  margin:9px 8px;
+		}
+			.item3>ul>li>a{
+				text-decoration:none;
+				color:white;
+				font-weight:bold;
+				font-size:20px;
+				display:inline-block;
+				margin-top:10px;
+			}
+			.item3>ul>li>a:hover{
+				color:#196F3D;
+				background-color:pink;
+			}
+			.item2>h1{
+			    display:block;
+				text-decoration:none;
+				color:White;	
+			}
+			.item2>h1:hover{
+				color:#004D40;
+			}
+			.item2>h1>span{
+				color:white;
+				margin-left:10px;
+				font-size:18px;
+			}
+			.item1>ul>li>img{
+			display:inline-flex;
+			width:50px;
+			height:40px;
+			}
+			.item1>ul{
+			list-style-type:none;
+			}
+			p{
+			color:#003366 ;
+			text-align:center;
+			Font-size:50px;
+			font-weight:bold;
+			 font-family: "Times New Roman", Times, serif;
+			font-style:italic;
+			}
+			#s1{
+			color:blue;
+			display:block;
+			
+			}
+			.slider{
+				background-image:url("slider1.jpg");
+				background-color:#2f388478;
+				height:800px;
+				background-repeat:no-repeat;
+				background-blend-mode: color;
+				background-attachment:scroll;
+				 background-attachment: fixed;
+				
+			}
+			.slider-text{
+				background-color: #00ff000f;
+				float: left;
+				/*margin-top: 200px;*/
+				padding: 20px 0px;
+				text-align: center;
+				margin-left:450px;
+				color: Orange;
+				position:relative;
+				top:300px;
+				 font-family: "Times New Roman", Times, serif;
+			}
+			.slider-text>h1{
+				font-size:50px;
+				font-family:'Nunito Sans', sans-serif;";
+				color:#FF6600;
+			}
+			.slider-text>button{
+				font-size:30px;
+				background-color:#B7950B;
+				padding:5px;
+				border:3px solid black;
+				border-radius:10px;
+				color:white;
+			}
+			
